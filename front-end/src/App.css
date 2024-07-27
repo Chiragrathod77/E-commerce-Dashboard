@@ -1,0 +1,225 @@
+.product-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+.product-table h1{
+  text-align: center;
+}
+.product-table input{
+  text-align: center;
+  margin-left :auto;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  width :25%;
+  
+}
+.product-table table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-table th,
+.product-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.product-table thead {
+  background-color: #0f7cdb6e;
+  color: rgb(2, 2, 89);
+}
+
+.product-table th {
+  font-weight: bold;
+}
+
+.product-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.product-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.product-table tbody td {
+  color: #555;
+}
+
+/* nav logo css */
+.logo{
+  width : 45px;
+  float: left;
+  border-radius: 50px;
+  margin-top: 3px;
+  margin-left: 20px;
+  margin-right: 5px;
+} 
+/* invalid input validation in add product*/
+.add-product span {
+  color: red;
+  font-size: small;
+  ;
+}
+/* add product css */
+ .add-product{
+    background-color: #fff;
+  padding: 150px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: auto;
+ }
+.add-product h1{
+  margin-bottom: 20px;
+  font-size: 36px;
+  width: 400px;
+  text-align: center;
+}
+.add-product select{
+  width: 450%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.add-product input {
+  width: 450%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.add-product button{
+  width: 200%;
+  padding: 10px;
+  background-color: #3e5294;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+.add-product button:hover{
+  background-color: #0f7cdb6e;
+  color:#000d37;
+} 
+/* signup page and loging page css  */
+.signup-container{
+  background-color: #fff;
+  padding: 150px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  margin-left: 30%;
+  text-align: center;
+  }
+
+.signup-container h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  width: 400px;
+  text-align: center;
+}
+
+.signup-container input {
+  width: 450%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.signup-container  button {
+  width: 200%;
+  padding: 10px;
+  background-color: #3e5294;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-container button:hover {
+  background-color: #0f7cdb6e;
+  color:#000d37;
+}
+
+
+/* Navbar CSS */
+.nav-ul li {
+ display: inline-block;
+ padding: 10px;
+
+}
+.nav-ul{
+  margin : 0px;
+  padding: 5px;
+  background-color: #0f7cdb6e;
+}
+.nav-ul li a{
+  color: #000d37;
+  padding: 5px;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.nav-ul li a:hover {
+  background-color: #0f7cdb6e;
+  color: white;
+
+}
+.nav-right{
+  text-align: right;
+}
+
+/* Footer cSS */
+.footer {
+  background-color:  #0f7cdb6e;
+  color: #000d37;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer h3 {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
